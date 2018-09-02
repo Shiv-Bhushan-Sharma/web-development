@@ -1,0 +1,59 @@
+.back-image{
+	width: 850px;
+	height: 540px;
+	background-image: url(back.jpg);
+	background-size: cover;
+	color: white;
+	margin: auto;
+	position: relative;
+}
+.box{
+	height: 333px;
+	width: 311px;
+	background-color: black;
+	margin: auto;
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	opacity: 0.2;
+}
+.text-modified-1{
+	text-align: center;
+	padding-top: 48px;
+	box-sizing: border-box;
+}
+.text-modified-2{
+	padding-top: 380px;
+	padding-left: 215px;
+	font-size: 11.5px;
+}
+form{
+	color: white;
+	padding: 20px 10px 20px 20px;
+	box-sizing: border-box;
+}
+.heading{
+	font-size: 15px;
+	padding-top: 10px;
+}
+.width{
+	width: 272px;
+	margin-top: 5px;
+	margin-bottom: 12px;
+	background-color: black;
+	opacity: 0.5;
+	border: 2.5px solid white;
+	padding: 6px 0px 5px 8px;
+	box-sizing: border-box;
+	font-size: 11px;
+	color: white;
+}
+.submit{
+	background-color: #b67a0c;
+	color: white;
+	width: 81px;
+	height: 30px;
+	margin-top: 9px;
+}

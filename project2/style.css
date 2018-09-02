@@ -1,0 +1,154 @@
+.main{
+	width: 1352px;
+	height: 615px;
+	background-color: white;
+}
+.box-1{
+	width: 100%;
+	height: 55px;
+	border-bottom:  1px solid #dddddd;
+	box-sizing: border-box;
+}
+ul{
+	list-style-type:none;
+	display: inline-block;
+}
+ul li{
+	background-color: white;
+	display: inline-block;
+	float: left;
+}
+.image-modified-1{
+	padding-left: 20px;
+	margin-top: -3px;
+}
+.image-modified-2{
+	padding-left: 160px;
+	margin-top: -2px;
+}
+.image-modified-3{
+	text-decoration: none;
+}
+.box-2{
+	width: 100%;
+	height: 530px;
+	border-top: 20px solid #fafafa;
+}
+.box-3{
+	width: 239px;
+	height: 530px;
+	background-color: #f5f5f5;
+	float: left;
+}
+.box-3 ul{
+	list-style-type: none;
+}
+.box-3 ul li{
+	width: 239px;
+	height: 40px;
+	color: black;
+	font-size: 19px;
+	float: left;
+	padding-left: 20px;
+	padding-top: 7px;
+	box-sizing: border-box;
+}
+.box-3 ul li span{
+	padding-top: 2px;
+	padding-bottom: 20px;
+}
+.background-color{
+	background-color: #f5f5f5;
+}
+.text-modified-1{
+	margin-top: -20px;
+	background-color: #dddddd;
+}
+.text-modified-2{
+	margin-left:-40px;
+	box-sizing: border-box;
+	padding-bottom: 5px; 
+}
+.text-modified-3{
+	margin-left: 20px;
+	box-sizing: border-box;
+	margin-top: -20px;
+}
+.best{
+	font-size: 16px;
+	margin-left: 5px;
+	color: #6d6d6d;
+}
+.image-modified-3 a{
+	text-decoration: none;
+	color: black;
+	font-size: 19px;
+}
+.border{
+	border-top: 1px solid  #c9c9c9;
+}
+.border-r{
+	border-right: 10px solid #c9c9c9;
+}
+.box-4{
+	width: 960px;
+	height: 260px;
+	float: right;
+	margin-top: -15px;
+}
+.image-modified-4{
+	margin-left: -40px;
+}
+.image-modified-5{
+	margin-top: 100px;
+}
+.text-modified-4{
+	color: black;
+	font-size: 20px;
+	margin-left: 70px;
+	margin-top: 30px;
+}
+.text-modified-5{
+	color: black;
+	font-size: 10px;
+}
+.text-modified-6{
+	margin-left: -40px;
+}
+.box-5{
+	width: 920px;
+	height: 40px;
+	float: right;
+}
+.box-6{
+	width: 960px;
+	height: 230px;
+	font-size: 16px;
+	color: #464646;
+	float: right;
+}
+.text-modified-7{
+	margin-top: -15px;
+}
+.text-modified-8{
+	color: #787878;
+	font-size: 16px;
+}
+.text-modified-9{
+	font-size: 16px;
+	margin-top: -10px;
+}
+.text-modified-10{
+	font-size: 16px;
+	margin-left: none;
+}
+.text-modified-11{
+	font-size: 19px;
+	margin-left: -40px;
+}
+.box-3 ul li:hover{
+	background-color: #dddddd;
+	margin-left:-40px;
+	box-sizing: border-box;
+	padding-bottom: 5px; 
+}

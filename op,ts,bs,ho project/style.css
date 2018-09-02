@@ -1,0 +1,46 @@
+.main{
+	height: 600px;
+	width: 1100px;
+	background-color: grey;
+}
+ul{
+	list-style-type: none;
+}
+ul li{
+	background-color: black;
+	width: 200px;
+	height: 151px;
+	display: inline-block;
+	margin: 30px;
+	opacity: 0.3 ;
+}
+.box-1:hover{
+             background-image: url(image-2.jpg);
+}
+.box-2:hover{
+             background-image: url(image-3.jpg);
+}
+.box-3:hover{
+             background-image: url(image-4.jpg);
+}
+.box-4:hover{
+             background-image: url(image-5.jpg);
+}
+.box-5:hover{
+             background-image: url(image-6.jpg);
+}
+.box-6:hover{
+             background-image: url(image-7.jpg);
+}
+.box-7:hover{
+             background-image: url(image-8.jpg);
+}
+.box-8:hover{
+             background-image: url(image-9.jpg);
+}
+
+.main ul li{
+	 opacity: 0.8;
+	 width: 180px;
+	 height: 120px;
+}

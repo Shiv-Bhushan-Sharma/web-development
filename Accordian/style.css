@@ -1,0 +1,22 @@
+label{
+	width: 900px;
+	height: 60px;
+	background-color: silver;
+	border:2px solid black;
+	text-align: center;
+	display: inline-block;
+	font-size: 20px;
+	padding: 12px;
+	box-sizing: border-box;
+}
+.Accordian .image{
+	transition: all 2s;
+	height: 0px;
+	overflow: hidden;
+}
+input[type="radio"]{
+	display: none;
+}
+input[type="radio"]:checked + .image{
+	height: 300px;
+}

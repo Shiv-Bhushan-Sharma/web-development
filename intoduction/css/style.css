@@ -1,0 +1,12 @@
+div{
+	color: black;
+    background-color: silver;
+	text-align: center;
+	padding: 10px;
+	height: 75px;
+    width: 120px;
+	border: 5px solid black;
+	border-left: 15px solid black;
+	margin: 20px;
+	font-size: 20px;
+}

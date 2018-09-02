@@ -1,0 +1,113 @@
+.main{
+	width: 500px;
+	height: 370px;
+	background-image: url(main-image.jpg);
+	background-size: cover;
+	border: 2px solid black;
+	overflow: hidden;
+	position: relative;
+}
+.child-1{
+	width: 500px;
+	height: 370px;
+	position: absolute;
+	top: 370px;
+	background-color: silver;
+	transition: all 2s 2s;
+	opacity:0.4;
+}
+.child-2{
+	width: 500px;
+	height: 370px;
+	position: absolute;
+	left: 500px;
+	background-color: black;
+	transition: all 2s 4s ;
+	opacity:0.4;
+}
+.child-3{
+	width: 500px;
+	height: 370px;
+	position: absolute;
+	right: 500px;
+	background-color: magenta;
+	transition: all 2s 6s;
+	opacity:0.4;
+}
+.child-4{
+	width: 500px;
+	height: 370px;
+	position: absolute;
+	bottom: 370px;
+	background-color: grey;
+	transition: all 2s 8s;
+	opacity:0.4;
+}
+.child-5{
+	width: 500px;
+	height: 370px;
+	position: absolute;
+	bottom: 370px;
+	left:-500px;
+	background-color: red;
+	transition: all 2s 10s ;
+	opacity:0.4;
+}
+.child-6{
+	width: 500px;
+	height: 370px;
+	position: absolute;
+	top: 370px;
+	right:-500px;
+	background-color: green;
+	transition: all 2s 12s ;
+	opacity:0.4;
+}
+.child-7{
+	width: 500px;
+	height: 370px;
+	position: absolute;
+	top: 370px;
+	left:-500px;
+	background-color: orange;
+	transition: all 2s 14s ;
+	opacity:0.4;
+}
+.child-8{
+	width: 500px;
+	height: 370px;
+	position: absolute;
+	bottom: 370px;
+	right:-500px;
+	background-color: red;
+	transition: all 2s 14s ;
+	opacity:0.4;
+}
+.main:hover .child-1{
+	top:0px;
+}
+.main:hover .child-2{
+	left:0px;
+}
+.main:hover .child-3{
+	right:0px;
+}
+.main:hover .child-4{
+	bottom:0px;
+}
+.main:hover .child-5{
+	bottom:0px;
+	left:0px;
+}
+.main:hover .child-6{
+	top:0px;
+	right:0px;
+}
+.main:hover .child-7{
+	top:0px;
+	left:0px;
+}
+.main:hover .child-8{
+	bottom:0px;
+	right:0px;
+}

@@ -1,0 +1,14 @@
+.main{
+	width:200px;
+	height: 100px;
+	background-color: silver;
+	border:2px solid black;
+	margin: auto;
+	transition: all 2s 2s steps(10);
+}
+.main:hover{
+	width:400px;
+	height: 200px;
+	background-color: magenta;
+	border:6px solid black;
+}
