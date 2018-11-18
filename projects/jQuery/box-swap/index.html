@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Box-swap</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="D:\web develpoment\extra-files\jQuery.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			var flag=true;
+			var x;
+			var y;
+			$('div').on('click',function(){
+				if(flag==true)
+				{
+					$('h1').text('Select');
+					flag=false;
+					x=$(this).css([
+						'background-color']);
+				}
+				else
+				{
+					$('h1').text('swap');
+					flag=true;
+					y=$(this).css([
+						'background-color']);
+					$(this).css(
+						'background-color',x['background-color']);
+					
+				}
+			})
+		})	
+	</script>
+</head>
+<body>
+	<h1>
+		Select
+	</h1>
+	<div class="box-1">
+		
+	</div>
+	<div class="box-2">
+		
+	</div>
+	<div class="box-3">
+		
+	</div>
+	<div class="box-4">
+		
+	</div>
+</body>
+</html>

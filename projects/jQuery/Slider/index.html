@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Slider</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="D:\web develpoment\extra-files\jQuery.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('#right').on('click',function(){
+				var length=$('img').length;
+				var lastimage=$('img').eq(length-1).attr('src');
+				for(var i=length-1;i>0;i--)
+				{
+					var prev=$('img').eq(i-1).attr('src');
+					$('img').eq(i).attr('src',prev);
+				}
+				$('img').eq(0).attr('src',lastimage);
+			})
+			$('#left').on('click',function(){
+				var length=$('img').length;
+				var firstimage=$('img').eq(0).attr('src');
+				for(var i=0;i<length-1;i++)
+				{
+					var next=$('img').eq(i+1).attr('src');
+					$('img').eq(i).attr('src',next);
+				}
+				$('img').eq(length-1).attr('src',firstimage);
+			})
+			$('#add').on('click',function(){
+				var z=$('<img src="rana.jpg" width="200" height="200">');
+				$('img').last().after(z);
+			})
+			var z=1;
+			$('#delete').on('click',function() {
+				z = (z == 1) ? 0 : 1;
+			})
+			$('img').on('click',function(){
+				if(z==0)
+				{
+				$(this).remove();
+				z=1;
+			}
+			})
+		})
+	</script>
+</head>
+<body>
+	<button id="left"> &lt;</button>
+		<img src="D:\web develpoment\images\ankush.jpg" width="200" height="200">
+		<img src="D:\web develpoment\images\nuna.jpg" width="200" height="200">
+		<img src="D:\web develpoment\images\shiv.jpg" width="200" height="200">
+		<img src="D:\web develpoment\images\ajay.jpg" width="200" height="200">
+	<button id="right">&gt;</button>
+	<button id="add">+</button>
+	<button id="delete">Delete</button>
+</body>
+</html>

@@ -1,0 +1,45 @@
+.box{
+	height: 620px;
+	width: 1300px;
+	border:5px solid black;
+	margin : auto;
+}
+.text-modified-1{
+	text-align: center;
+}
+.box-1{
+	height: 210px;
+	width: 270px;
+	border: 2px solid grey;
+	display: inline-block;
+	margin-left: 30px;
+	margin-top: 30px;
+	position: relative;
+}
+.text-modified-2{
+	display: none;
+}
+.image-modified{
+	height: 210px;
+	width: 270px;
+}
+.text-modified-3{
+	height: 210px;
+	width: 270px;
+	position: absolute;
+	background-color: black;
+	top: 0px;
+	overflow: hidden;
+	color: silver;
+	font-size: 25px;
+}
+#score{
+	color:red;
+	font-size: 26px;
+	float: right;
+	margin-right: 50px;
+	margin-top: 50px;
+	height: 30px;
+	width:100px;
+	padding-left: 10px;
+}

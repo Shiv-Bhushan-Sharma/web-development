@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Game-Find a person</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="D:\web develpoment\extra-files\jQuery.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			var count=0;
+			var person='shiv';
+			$('button').on('click',function(){
+				$(this).parent().find('div').remove();
+				count++;
+				$('#score').text('score:'+count);
+				var x= $(this).parent().find('span').text();
+				if(person==x)
+				{
+					alert("you win");
+					setTimeout(function(){
+						history.go(0);
+					},2000)
+				}
+				else if(count==3)
+				{
+					alert('you loose');
+					history.go(0);
+				}
+				else{
+					alert('you click on wrong person.....Keep try');
+				}
+			})
+		})
+	</script>
+</head>
+<body>
+	<span id="score"></span>
+	<div class="box">
+		<h1 class="text-modified-1">
+			Find Shiv 
+		</h1>
+		<div class="box-1">
+			<img class="image-modified" src="D:\web develpoment\images\bhaiya.jpg">
+			<span class="text-modified-2">Bhaiya</span>
+			<button>click</button>
+			<div class="text-modified-3">
+				
+			</div>
+		</div>
+		<div class="box-1">
+			<img class="image-modified" src="D:\web develpoment\images\ajay.jpg">
+			<span class="text-modified-2">ajay</span>
+			<button>click</button>
+			<div class="text-modified-3">
+				
+			</div>
+		</div>
+		<div class="box-1">
+			<img class="image-modified" src="D:\web develpoment\images\tiwari.jpg">
+			<span class="text-modified-2">tiwari</span>
+			<button>click</button>
+			<div class="text-modified-3">
+				
+			</div>
+		</div>
+		<div class="box-1">
+			<img class="image-modified" src="D:\web develpoment\images\rana.jpg">
+			<span class="text-modified-2">rana</span>
+			<button>click</button>
+			<div class="text-modified-3">
+				
+			</div>
+		</div>
+		<div class="box-1">
+			<img class="image-modified" src="D:\web develpoment\images\bcchi.jpg">
+			<span class="text-modified-2">bcchi</span>
+			<button>click</button>
+			<div class="text-modified-3">
+				
+			</div>
+		</div>
+		<div class="box-1">
+			<img class="image-modified" src="D:\web develpoment\images\shiv.jpg">
+			<span class="text-modified-2">shiv</span>
+			<button>click</button>
+			<div class="text-modified-3">
+				
+			</div>
+		</div>
+		<div class="box-1">
+			<img class="image-modified" src="D:\web develpoment\images\pota.jpg">
+			<span class="text-modified-2">pota</span>
+			<button>click</button>
+			<div class="text-modified-3">
+				
+			</div>
+		</div>
+		<div class="box-1">
+			<img class="image-modified" src="D:\web develpoment\images\nuna.jpg">
+			<span class="text-modified-2">nuna</span>
+			<button>click</button>
+			<div class="text-modified-3">
+				
+			</div>
+		</div>
+	</div>
+</body>
+</html>
